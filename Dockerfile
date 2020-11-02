@@ -3,5 +3,5 @@ ENV NODE_ENV=production
 WORKDIR /usr/src/app
 COPY ["package.json", "yarn.lock", "npm-shrinkwrap.json*", "./"]
 RUN yarn --production --silent && mv node_modules ../
-RUN yarn global add elm
+RUN yarn global add elm elm-test elm-format
 COPY . .
