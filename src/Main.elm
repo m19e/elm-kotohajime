@@ -30,6 +30,7 @@ update msg model =
 
 -- VIEW
 
+view : Model -> Html Msg
 view model =
   div []
     [ button [ onClick Decrement ] [ text "-" ]
