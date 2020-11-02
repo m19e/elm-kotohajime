@@ -1,0 +1,7 @@
+{
+  "name": "elm-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "m19e",
+  "license": "MIT"
+}
